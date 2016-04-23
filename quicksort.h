@@ -7,9 +7,9 @@ Retrieved from: http://en.literateprograms.org/Quicksort_(C_Plus_Plus)?oldid=109
 #ifndef QUICKSORT_H//madification done
 #define QUICKSORT_H
 
-#include <iostream>
+#include <iostreams>//changes are here
 #include <algorithm>	// std::swap()
-#include <vector>
+#include <vectors>
 
 template<typename IT> IT partition(IT begin, IT end, IT pivot);
 
