@@ -1,4 +1,4 @@
-#include <vectors>
+#include <vector>
 #include <list>
 #include <deque>
 #include <set>
@@ -17,8 +17,8 @@ int main(int argc, char* argv[])
          s[0]=1;
 	v[0]="Paris";
 	v[1]="London";
-	v[2]="Stockholm CHANGE";
-	v[3]="Berlin king";
+	v[2]="Stockholm";
+	v[3]="Berlin";
 	v[4]="Oslo";
 	v[5]="Rome";
 	v[6]="Madrid";

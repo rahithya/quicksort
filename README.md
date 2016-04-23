@@ -1,3 +1,3 @@
 # quicksort
 
-read this
+read this before start
