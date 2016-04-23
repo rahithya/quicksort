@@ -10,7 +10,7 @@ Retrieved from: http://en.literateprograms.org/Quicksort_(C_Plus_Plus)?oldid=109
 #include <iostream>
 #include <algorithm>	// std::swap()
 #include <vector>
-
+// In feature_sridhar branch
 template<typename IT> IT partition(IT begin, IT end, IT pivot);
 
 template<typename IT> IT pivot_median(IT begin, IT end);
