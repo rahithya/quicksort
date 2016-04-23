@@ -4,13 +4,12 @@ http://en.literateprograms.org/Quicksort_(C_Plus_Plus)?action=history&offset=200
 Retrieved from: http://en.literateprograms.org/Quicksort_(C_Plus_Plus)?oldid=10979
 */
 
-#ifndef QUICKSORT_H//madification done
+#ifndef QUICKSORT_H
 #define QUICKSORT_H
 
-#include <iostreams>//changes are here
+#include <iostream>
 #include <algorithm>	// std::swap()
 #include <vector>
-#include <vectors>
 
 template<typename IT> IT partition(IT begin, IT end, IT pivot);
 
